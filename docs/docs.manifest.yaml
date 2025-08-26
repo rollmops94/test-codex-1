@@ -1,0 +1,73 @@
+docs:
+  - file: docs/README.md
+    purpose: Entry point to project documentation
+    owner: rollmops94
+    generated_from: [main.py, docs/**/*]
+  - file: docs/ARCHITECTURE.md
+    purpose: Describe project structure and data flow
+    owner: rollmops94
+    generated_from: [main.py]
+  - file: docs/SYSTEM_CONTEXT.md
+    purpose: Outline external inputs and environment
+    owner: rollmops94
+    generated_from: [main.py]
+  - file: docs/MODULE_INDEX.md
+    purpose: Map modules to public APIs
+    owner: rollmops94
+    generated_from: [main.py]
+  - file: docs/API_REFERENCE.md
+    purpose: Detail API signatures
+    owner: rollmops94
+    generated_from: [main.py]
+  - file: docs/DESIGN_DECISIONS/ADR-20250826-initial-architecture.md
+    purpose: Record initial architectural choices
+    owner: rollmops94
+    generated_from: [git:commits]
+  - file: docs/HOWTOS/adding_a_feature.md
+    purpose: Guide for adding new features
+    owner: rollmops94
+    generated_from: [docs/STYLE_GUIDE.md, main.py]
+  - file: docs/HOWTOS/running_the_program.md
+    purpose: Instructions for running the script
+    owner: rollmops94
+    generated_from: [main.py]
+  - file: docs/RUNBOOKS/release_cut.md
+    purpose: Steps to cut a release
+    owner: rollmops94
+    generated_from: [CHANGELOG.md, git:tags]
+  - file: docs/GLOSSARY.md
+    purpose: Define project terms
+    owner: rollmops94
+    generated_from: [docs/**/*]
+  - file: docs/STYLE_GUIDE.md
+    purpose: Coding style conventions
+    owner: rollmops94
+    generated_from: [None]
+  - file: docs/TEST_STRATEGY.md
+    purpose: Testing approach
+    owner: rollmops94
+    generated_from: [tests/**/*]
+  - file: docs/ROADMAP.md
+    purpose: Planned future work
+    owner: rollmops94
+    generated_from: [docs/DESIGN_DECISIONS/*]
+  - file: docs/TASK_REGISTRY.md
+    purpose: List of small tasks
+    owner: rollmops94
+    generated_from: [docs/**/*]
+  - file: docs/PROMPTS.md
+    purpose: Reusable prompts for contributors
+    owner: rollmops94
+    generated_from: [docs/**/*]
+  - file: CONTRIBUTING.md
+    purpose: Contribution guidelines
+    owner: rollmops94
+    generated_from: [docs/STYLE_GUIDE.md]
+  - file: CHANGELOG.md
+    purpose: Track project changes
+    owner: rollmops94
+    generated_from: [git:commits]
+  - file: CODEOWNERS
+    purpose: Define code owners
+    owner: rollmops94
+    generated_from: [git:blame]
